@@ -3,7 +3,6 @@ from os import path as ospath, environ
 from subprocess import run as srun
 from dotenv import load_dotenv
 from pymongo import MongoClient
-import python-telegram-bot as bot
 
 if ospath.exists('log.txt'):
     with open('log.txt', 'r+') as f:
