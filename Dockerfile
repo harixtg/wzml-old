@@ -1,4 +1,4 @@
-FROM 5hojib/aeon:latest
+FROM noman12/jmdkh:latest
 WORKDIR /usr/src/app
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
