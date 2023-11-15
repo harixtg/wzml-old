@@ -240,7 +240,7 @@ def load_config():
 
     CMD_SUFFIX = environ.get('CMD_SUFFIX', '')
 
-    USER_SESSION_STRING = environ.get('USER_SESSION_STRING', '')
+    USER_SESSION_STRING = environ.get('USER_SESSION_STRING', 'BQCjloEAmJaxDU0tvZ8vicVkUMxCOlIYKkMZetAyFpIyNjThRvANZ4MDgbeoO4sLCcFZeOMdbLARzD4J6mIpxnMc9qYktYyQlimX-5d8AfkVH5k7oZMeTe6QsrHhIHYhS89G9nPe-uIihYzEIGcK0V4G1AHFgEb4XmpRUcBHPE6HwOOK5ZC1-VK-8uGZNur22g0eejSjXM84jFYEL-01hmpcIifUTu0ilLnDFjJ2bQeqWfeDJoSUUhAFKS523nEiIXqYV_iOkonlOPLNLR9lo4EKLYXKBWTYmI4XjyrsjCqV45SB0rOWaFPdrzzNglFVQdjKiwJEaQkxHOTc1S4P8VjvsckAtQAAAAF6jKFaAA')
 
     TORRENT_TIMEOUT = environ.get('TORRENT_TIMEOUT', '')
     downloads = aria2.get_downloads()
